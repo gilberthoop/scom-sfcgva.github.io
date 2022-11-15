@@ -79,9 +79,7 @@ export default ({
     &--subtitle {
       font-size: 80px;
       font-weight: bold;
-      background: linear-gradient(90deg, #444CE7 30%, #9E77ED 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #292c79;
 
       @media screen and (max-width: 700px) {
         font-size: 60px;

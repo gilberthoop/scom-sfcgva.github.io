@@ -1,31 +1,32 @@
 <template>
-  <v-container class="about d-flex flex-column flex-md-row">
-    <div class="about__header">What is SCOM?</div>
+  <v-container class="trivia d-flex flex-column flex-md-row-reverse">
+    <div class="trivia__header text-center">Did you know?</div>
     <v-card
-      class="about__body pa-7"
+      class="trivia__body pa-7"
       color="#003B89"
     >
       <p
         v-for="(content, index) in contents"
         :key="index"
+        class="my-5"
       >
         {{ content }}
       </p>
     </v-card>
-
   </v-container>
 </template>
 
 <script>
 export default ({
-  name: 'About',
+  name: 'Trivia',
 
   data () {
     return {
       contents: [
-        'SFC Communications functions as the communication arm of the ministry across all programs and areas, both within and even outside the ministry.',
-        'SFC Communications ensures that all necessary and essential information are being provided and communicated properly through the right channel, to the right persons at the right time.',
-        'SFC Communications has the responsibility to archive all the materials and references that are being used by the ministry for the purpose of evangelization.'
+        'You can add your service experience with SCOM to your resume, CV and LinkedIn.',
+        'We have a Udemy account with online courses to help you learn graphics & web design and video editing.',
+        'We are currently building a free accountability mobile app that is similar to Covenant Eyes.',
+        'We have bowling and pub nights.'
       ]
     }
   }
@@ -33,7 +34,9 @@ export default ({
 </script>
 
 <style scoped lang="scss">
-.about {
+.trivia {
+  margin: 15% 0;
+
   &__header {
     font-size: 60px;
     font-weight: bold;
