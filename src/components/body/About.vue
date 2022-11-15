@@ -3,7 +3,7 @@
     <div class="about__header">What is SCOM?</div>
     <v-card
       class="about__body pa-7"
-      color="#1D2939"
+      color="#003B89"
     >
       <p
         v-for="(content, index) in contents"
