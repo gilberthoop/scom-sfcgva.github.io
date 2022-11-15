@@ -2,18 +2,24 @@
   <v-container class="main">
     <Introduction />
     <About />
+    <Trivia />
+    <FrequentlyAskedQuestions />
   </v-container>
 </template>
 
 <script>
 import Introduction from './body/Introduction'
 import About from './body/About'
+import Trivia from './body/Trivia'
+import FrequentlyAskedQuestions from './body/FrequentlyAskedQuestions'
 export default {
   name: 'Main',
 
   components: {
     Introduction,
-    About
+    About,
+    Trivia,
+    FrequentlyAskedQuestions
   }
 }
 </script>
