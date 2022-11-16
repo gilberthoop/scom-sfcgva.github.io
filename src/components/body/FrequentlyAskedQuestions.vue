@@ -1,5 +1,10 @@
 <template>
   <div class="faq">
+    <div
+      id="faq"
+      class="anchor">
+    </div>
+
     <div class="faq__title text-center my-3">
       Frequently Asked Questions
     </div>
@@ -66,7 +71,7 @@ export default ({
   position: relative;
   margin-left: -50vw;
   left: 50%;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 
   &__section {
     border-color: #fff;
@@ -142,7 +147,7 @@ export default ({
 .anchor {
   display: block;
   position: relative;
-  top: -100px;
+  top: -20px;
   visibility: hidden;
 }
 </style>

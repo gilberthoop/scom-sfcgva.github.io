@@ -34,10 +34,9 @@ export default {
 .main {
   font-family: "Outfit", sans-serif;
   color: white;
-  margin-bottom: 60px;
 
   @media only screen and (max-width: 960px) {
-    padding: 50px;
+    padding: 50px 50px 0 50px;
   }
 
   @media only screen and (max-width: 600px) {

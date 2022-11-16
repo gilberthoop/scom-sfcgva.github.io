@@ -1,5 +1,10 @@
 <template>
   <v-container class="trivia d-flex flex-column flex-md-row">
+    <div
+      id="trivia"
+      class="anchor">
+    </div>
+    
     <div class="trivia__header text-center">Did you know?</div>
     <v-card
       class="trivia__body pa-7"
@@ -65,5 +70,12 @@ export default ({
       border-radius: 15px;
     }
   }
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 </style>

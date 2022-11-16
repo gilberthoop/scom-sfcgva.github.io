@@ -1,5 +1,10 @@
 <template>
   <v-container class="about d-flex flex-column flex-md-row">
+    <div
+      id="about"
+      class="anchor">
+    </div>
+
     <div class="about__header">What is SCOM?</div>
     <v-card
       class="about__body pa-7"
@@ -62,5 +67,12 @@ export default ({
       border-radius: 15px;
     }
   }
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 </style>

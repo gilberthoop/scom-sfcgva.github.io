@@ -1,5 +1,10 @@
 <template>
   <v-container class="team">
+    <div
+      id="teams"
+      class="anchor">
+    </div>
+
     <div class="team__header mb-10">
       <div class="team__header-title mb-7">
         Our Teams
@@ -144,5 +149,12 @@ export default ({
       line-height: 30px;
     }
   }
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 </style>
