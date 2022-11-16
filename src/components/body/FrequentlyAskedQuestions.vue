@@ -60,13 +60,13 @@ export default ({
 
 <style scoped lang="scss">
 .faq {
-  margin: 15% 0;
+  margin-top: 15%;
   background-color: #003B89;
   width: 100vw;
   position: relative;
   margin-left: -50vw;
   left: 50%;
-  height: 100vh;
+  padding-bottom: 80px;
 
   &__section {
     border-color: #fff;
@@ -94,7 +94,7 @@ export default ({
   }
 
   &__header {
-    font-size: 36px;
+    font-size: 32px;
     line-height: 44px;
     border-color: #fff !important;
 

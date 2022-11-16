@@ -1,8 +1,8 @@
 <template>
-  <v-container class="trivia d-flex flex-column flex-md-row">
-    <div class="trivia__header text-center">Did you know?</div>
+  <v-container class="why d-flex flex-column flex-md-row-reverse">
+    <div class="why__header text-center">Why do we have SCOM?</div>
     <v-card
-      class="trivia__body pa-7"
+      class="why__body pa-7"
       color="#003B89"
     >
       <p
@@ -18,15 +18,13 @@
 
 <script>
 export default ({
-  name: 'Trivia',
+  name: 'WhySCOM',
 
   data () {
     return {
       contents: [
-        'You can add your service experience with SCOM to your resume, CV and LinkedIn.',
-        'We have a Udemy account with online courses to help you learn graphics & web design and video editing.',
-        'We are currently building a free accountability mobile app that is similar to Covenant Eyes.',
-        'We have bowling and pub nights.'
+        'To showcase SFC culture and to document its history.',
+        'To support other ministries in their missions and create a positive experience for everyone involved.'
       ]
     }
   }
@@ -34,7 +32,7 @@ export default ({
 </script>
 
 <style scoped lang="scss">
-.trivia {
+.why {
   margin: 15% 0;
 
   &__header {
