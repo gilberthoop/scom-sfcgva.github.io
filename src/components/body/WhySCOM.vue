@@ -1,5 +1,10 @@
 <template>
   <v-container class="why d-flex flex-column flex-md-row-reverse">
+    <div
+      id="why-scom"
+      class="anchor">
+    </div>
+
     <div class="why__header text-center">Why do we have SCOM?</div>
     <v-card
       class="why__body pa-7"
@@ -63,5 +68,12 @@ export default ({
       border-radius: 15px;
     }
   }
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
 }
 </style>
