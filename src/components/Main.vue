@@ -2,6 +2,8 @@
   <v-container class="main">
     <Introduction />
     <About />
+    <WhySCOM />
+    <Teams />
     <Trivia />
     <FrequentlyAskedQuestions />
   </v-container>
@@ -10,6 +12,8 @@
 <script>
 import Introduction from './body/Introduction'
 import About from './body/About'
+import Teams from './body/Teams'
+import WhySCOM from './body/WhySCOM'
 import Trivia from './body/Trivia'
 import FrequentlyAskedQuestions from './body/FrequentlyAskedQuestions'
 export default {
@@ -18,6 +22,8 @@ export default {
   components: {
     Introduction,
     About,
+    Teams,
+    WhySCOM,
     Trivia,
     FrequentlyAskedQuestions
   }
