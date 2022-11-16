@@ -79,7 +79,7 @@ export default ({
     &--subtitle {
       font-size: 80px;
       font-weight: bold;
-      color: #292c79;
+      color: #003B89;
 
       @media screen and (max-width: 700px) {
         font-size: 60px;
