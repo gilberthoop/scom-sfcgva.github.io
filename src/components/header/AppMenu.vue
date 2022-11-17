@@ -115,7 +115,7 @@ export default({
 
 ::v-deep .v-dialog--fullscreen {
   background-color: #003B89;
-  top: 100px;
+  top: 70px;
   font-family: "Outfit", sans-serif !important;
   font-size: 30px;
   line-height: 90px;
