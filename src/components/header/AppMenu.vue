@@ -3,7 +3,7 @@
       app
       color="rgba(31, 143, 226, 0.9)"
       elevation="0"
-      height="108"
+      :height="$vuetify.breakpoint.smAndDown ? '70' : '108'"
       class="app-bar px-0 px-sm-5 px-md-16"
     >
       <div class="d-none d-md-flex align-center pl-16">

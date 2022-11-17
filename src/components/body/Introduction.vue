@@ -40,6 +40,10 @@ export default ({
   padding: 150px 0;
   line-height: 1.2;
 
+  @media screen and (max-width: 620px) {
+    padding-top: 70px;
+  }
+
   &__contents {
     font-size: 50px;
 
