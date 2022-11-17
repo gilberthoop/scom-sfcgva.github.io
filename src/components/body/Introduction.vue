@@ -41,7 +41,7 @@ export default ({
   line-height: 1.2;
 
   @media screen and (max-width: 620px) {
-    padding-top: 70px;
+    padding-top: 45px;
   }
 
   &__contents {
