@@ -134,6 +134,7 @@ export default ({
     }
 
     &-title {
+      text-decoration: underline;
       font-size: 36px;
       font-weight: 500;
       line-height: 44px;

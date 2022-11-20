@@ -127,12 +127,12 @@ export default ({
 }
 
 ::v-deep .v-expansion-panels {
-  border: 2px solid #A4BCFD;
+  border: 2px solid #1f8fe2;
   border-radius: 5px
 }
 
 ::v-deep .theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon {
-  color: #A4BCFD;
+  color: #1f8fe2;
   font-size: 48px;
 
   @media only screen and (max-width: 600px) {
@@ -141,7 +141,7 @@ export default ({
 }
 
 ::v-deep .theme--light.v-expansion-panels .v-expansion-panel:not(:first-child)::after {
-  border-color: #A4BCFD;
+  border-color: #1f8fe2;
 }
 
 .anchor {
