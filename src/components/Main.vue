@@ -3,6 +3,7 @@
     <Introduction />
     <About />
     <WhySCOM />
+    <RequestForm />
     <Teams />
     <Trivia />
     <FrequentlyAskedQuestions />
@@ -12,6 +13,7 @@
 <script>
 import Introduction from './body/Introduction'
 import About from './body/About'
+import RequestForm from './body/RequestForm'
 import Teams from './body/Teams'
 import WhySCOM from './body/WhySCOM'
 import Trivia from './body/Trivia'
@@ -22,6 +24,7 @@ export default {
   components: {
     Introduction,
     About,
+    RequestForm,
     Teams,
     WhySCOM,
     Trivia,
