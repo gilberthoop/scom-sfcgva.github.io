@@ -94,7 +94,7 @@ export default({
 .anchor {
   display: block;
   position: relative;
-  top: -20px;
+  top: -150px;
   visibility: hidden;
 }
 </style>

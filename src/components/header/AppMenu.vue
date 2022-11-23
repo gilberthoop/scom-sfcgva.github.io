@@ -81,7 +81,8 @@ export default({
     return {
       links: [
         { name: 'SCOM', route: '#about' },
-        { name: 'Why we have SCOM', route: '#why-scom' },
+        { name: 'Why We Have SCOM', route: '#why-scom' },
+        { name: 'Send A Request', route:'#form' },
         { name: 'Our Teams', route: '#teams' },
         { name: 'Fun Facts', route: '#trivia' },
         { name: 'FAQ', route: '#faq' }
